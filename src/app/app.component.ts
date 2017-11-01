@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  colors = ['black', 'blue', 'brown', 'gray', 'green', 'indigo', 'orange', 'pink', 'purple', 'red', 'violet', 'yellow'];
+  random = function(){
+	  return Math.floor(Math.random()*12);
+  }
 }
